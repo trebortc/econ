@@ -1,0 +1,28 @@
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute !important;
+}
+
+.nav-item:hover{
+    background-color: rgb(0, 70, 94);
+}
+
+.contenido-carousel{
+    background-color: rgba(0, 70, 94, 1);
+    opacity: .7;
+}
+
+.carousel-caption {
+    right: 5%;
+    text-align: right;
+    max-width: 300px;
+    left: auto;
+    padding:5px;
+}
+.color-p{
+    background-color: rgb(0, 70, 94);
+}
+
+.esp-bloq {
+    height: 5rem;
+}
+
