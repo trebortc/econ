@@ -26,3 +26,13 @@
     height: 5rem;
 }
 
+.card{
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.contorno{
+    border: 1px solid rgba(0,0,0,.125); 
+}
+
+
+
