@@ -1,5 +1,5 @@
-.navbar-expand-md .navbar-nav .dropdown-menu {
-    position: absolute !important;
+.fixed-top-2 {
+    margin-top: 56px;
 }
 
 .nav-item:hover{
@@ -12,14 +12,26 @@
 }
 
 .carousel-caption {
-    right: 5%;
+    right: 10%;
     text-align: right;
-    max-width: 300px;
+    max-width: 400px;
     left: auto;
     padding:5px;
 }
 .color-p{
     background-color: rgb(0, 70, 94);
+}
+
+.color-l-p{
+    color: rgb(62, 187, 196);
+}
+
+.color-s{
+    background-color: rgba(0, 70, 94, 0.1);
+}
+
+.card{
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 .esp-bloq {
@@ -34,5 +46,37 @@
     border: 1px solid rgba(0,0,0,.125); 
 }
 
+@media (max-width: 575.98px) {
+    body{
+        margin-top: 72px;
+    }
+ }
 
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body{
+        margin-top: 72px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body{
+        margin-top: 162px;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body{
+        margin-top: 135px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    body{
+        margin-top: 156px;
+    }
+}
 
