@@ -1,10 +1,13 @@
-.fixed-top-2 {
-    margin-top: 56px;
+.fixed-top-1 {
+    margin-top: 45px;
 }
 
-.nav-item:hover{
-    background-color: rgb(0, 70, 94);
+.fixed-top-2{
+    margin-top: 125px;
 }
+/*.nav-item:hover{
+    background-color: rgb(0, 70, 94);
+}*/
 
 .contenido-carousel{
     background-color: rgba(0, 70, 94, 1);
@@ -38,6 +41,10 @@
     height: 5rem;
 }
 
+.esp-bloq-2 {
+    height: 2rem;
+}
+
 .card{
     border: 1px solid rgba(255, 255, 255, 1);
 }
@@ -48,35 +55,35 @@
 
 @media (max-width: 575.98px) {
     body{
-        margin-top: 72px;
+        margin-top: 125px;
     }
  }
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     body{
-        margin-top: 72px;
+        margin-top: 151px;
     }
 }
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     body{
-        margin-top: 162px;
+        margin-top: 197px;
     }
 }
 
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     body{
-        margin-top: 135px;
+        margin-top: 180px;
     }
 }
 
 
 @media (min-width: 1200px) {
     body{
-        margin-top: 156px;
+        margin-top: 180px;
     }
 }
 
@@ -134,5 +141,17 @@ h2 {
     background-color: #37b3d9;
   }
 
-  
+.boton {
+    display: inline-block;
+    background-color: #e2e3e5;
+}
+
+.boton:hover{
+    background-color: #b7b9be;
+    color: rgb(0, 70, 94);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(90, 95, 105);
+}
 
