@@ -97,6 +97,16 @@ figcaption{
     background-color:  rgb(0, 70, 94);
 }
 
+.figure-caption{
+    position: relative;
+    right: 0;
+    bottom: 50%;
+    color: rgb(44, 44, 44);
+    font-size: 13px;
+    padding: 2px 9px;
+    background-color:  rgb(255, 255, 255); 
+}
+
 h2 {
     overflow: hidden;
     text-align: center;
@@ -155,3 +165,19 @@ h2 {
     color: rgb(90, 95, 105);
 }
 
+.text-econ{
+    color: rgb(30, 126, 155);
+}
+
+.text-econ-2{
+    color: rgb(0, 72, 94);
+}
+
+.image-efect-1:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.cont {
+    overflow: hidden;
+}
